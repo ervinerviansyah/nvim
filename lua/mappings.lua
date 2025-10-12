@@ -46,3 +46,5 @@ vim.api.nvim_set_keymap(
 vim.api.nvim_set_keymap("n", "<S-F7>", "<cmd>CompilerToggleResults<cr>", { noremap = true, silent = true })
 
 vim.api.nvim_set_keymap("n", "<leader>n", ":ASToggle<CR>", {})
+
+vim.keymap.set("n", "<C-p>", ":FloatermToggle<CR>", { silent = true })

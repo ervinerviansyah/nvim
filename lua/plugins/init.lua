@@ -157,6 +157,13 @@ return {
   },
 
   {
+    "nvzone/floaterm",
+    dependencies = "nvzone/volt",
+    opts = {},
+    cmd = "FloatermToggle",
+  },
+
+  {
     "hrsh7th/nvim-cmp",
     dependencies = {
       "supermaven-inc/supermaven-nvim",
