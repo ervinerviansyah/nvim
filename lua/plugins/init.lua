@@ -164,6 +164,14 @@ return {
   },
 
   {
+    "IogaMaster/neocord",
+    event = "VeryLazy",
+    config = function()
+      require "configs.neocord"
+    end,
+  },
+
+  {
     "hrsh7th/nvim-cmp",
     dependencies = {
       "supermaven-inc/supermaven-nvim",
