@@ -172,6 +172,14 @@ return {
   },
 
   {
+    "gisketch/triforce.nvim",
+    dependencies = { "nvzone/volt" },
+    config = function()
+      require "configs.triforce"
+    end,
+  },
+
+  {
     "hrsh7th/nvim-cmp",
     dependencies = {
       "supermaven-inc/supermaven-nvim",

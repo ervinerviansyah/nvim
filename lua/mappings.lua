@@ -48,3 +48,7 @@ vim.api.nvim_set_keymap("n", "<S-F7>", "<cmd>CompilerToggleResults<cr>", { norem
 vim.api.nvim_set_keymap("n", "<leader>n", ":ASToggle<CR>", {})
 
 vim.keymap.set("n", "<C-p>", ":FloatermToggle<CR>", { silent = true })
+
+vim.keymap.set("n", "<C-l>", function()
+  require("triforce").show_profile()
+end, { desc = "Tampilkan status Triforce" })
