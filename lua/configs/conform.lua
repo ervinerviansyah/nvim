@@ -22,6 +22,7 @@ local options = {
     go = { "gofmt" },
     sh = { "shfmt" },
     dockerfile = { "hadolint", "dockerfile_fmt" },
+    typst = { "typstyle" },
   },
 
   format_on_save = {
